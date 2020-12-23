@@ -680,7 +680,7 @@ section {
   font-size: 18px;
 }
 
-.services .title a {
+.services .title span, .services .title a {
   color: #111;
 }
 
@@ -690,7 +690,7 @@ section {
   margin-bottom: 0;
 }
 
-.services .icon-box:hover .title a, .services .icon-box:hover .description {
+.services .icon-box:hover .title a, .services .icon-box:hover .title span, .services .icon-box:hover .description {
   color: #fff;
 }
 
@@ -1126,7 +1126,7 @@ section {
   border-color: #d43076;
 }
 
-.contact .php-email-form button[type="submit"] {
+.btn-cta, .contact .php-email-form button[type="submit"] {
   background: #d43076;
   border: 0;
   padding: 10px 24px;
@@ -1135,7 +1135,7 @@ section {
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type="submit"]:hover {
+.btn-cta:hover, .contact .php-email-form button[type="submit"]:hover {
   background: #dd5a92;
 }
 
